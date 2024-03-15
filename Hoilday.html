@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gogaga Holidays</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <link type="text/css" rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+    <header>
+        <div class="d-flex flex-row justify-content-center">
+            <h1 class="logo">Gogaga Holidays</h1>
+        </div>
+        <nav>
+            <ul>
+                <li class="box"><a href="#holiday-packages">Holiday Packages</a></li>
+                <li><a href="#flight-booking">Flight Booking</a></li>
+                <li><a href="#hotel-booking">Hotel Booking</a></li>
+                <li><a href="#package-collections">Package Collections</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+
+    </header>
+
+    <section id="holiday-packages" class="section">
+        <h2>Holiday Packages</h2>
+        <div class="card">
+            <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/26/32/5e/e2/margan-pass.jpg?w=1200&h=-1&s=1" alt="Paris Adventure">
+            <div class="card-content">
+                <h3>Paris Adventure</h3>
+                <p>Explore the romantic city of Paris with our guided tours and luxurious accommodations.</p>
+                <p>Price: $2000</p>
+            </div>
+        </div>
+        <div class="card">
+            <img src="https://img.freepik.com/free-photo/tropical-paradise-poolside-resort_1268-31077.jpg" alt="Tropical Paradise">
+            <div class="card-content">
+                <h3>Tropical Paradise</h3>
+                <p>Relax on pristine beaches and enjoy exciting water activities in our tropical paradise package.</p>
+                <p>Price: $1500</p>
+            </div>
+        </div>
+        <div class="card">
+            <img src="https://r1imghtlak.ibcdn.com/8a348232333311e8b51d0acbc661c048.jpeg?downsize=634:357" alt="Mountain Retreat">
+            <div class="card-content">
+                <h3>Mountain Retreat</h3>
+                <p>Escape to the serene mountainside and rejuvenate with fresh air and breathtaking views.</p>
+                <p>Price: $1800</p>
+            </div>
+        </div>
+        <div class="card">
+            <img src="https://www.eaglecreek.com/cdn/shop/articles/A_20game_20drive_20safari_20into_20the_20wildness_20animal_20in_20Serengeti_20National_20Park_1100x.jpg?v=1641393700" alt="Safari Adventure">
+            <div class="card-content">
+                <h3>Safari Adventure</h3>
+                <p>Embark on an unforgettable safari journey and witness the wonders of wildlife in their natural habitat.</p>
+                <p>Price: $2500</p>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="flight-booking" class="section">
+        <h2>Flight Booking</h2>
+        <div class="card">
+            <div class="card-content">
+                <label for="departure">Departure:</label>
+                <input type="text" id="departure" name="departure" placeholder="Enter departure city">
+                <label for="destination">Destination:</label>
+                <input type="text" id="destination" name="destination" placeholder="Enter destination city">
+                <label for="depart-date">Departure Date:</label>
+                <input type="date" id="depart-date" name="depart-date">
+                <button type="submit">Search Flights</button>
+            </div>
+        </div>
+    </section>
+
+    <section id="hotel-booking" class="section">
+        <h2>Hotel Booking</h2>
+        <div class="card">
+            <div class="card-content">
+                <label for="location">Location:</label>
+                <input type="text" id="location" name="location" placeholder="Enter destination">
+                <label for="check-in">Check-in:</label>
+                <input type="date" id="check-in" name="check-in">
+                <label for="check-out">Check-out:</label>
+                <input type="date" id="check-out" name="check-out">
+                <button type="submit">Search Hotels</button>
+            </div>
+        </div>
+    </section>
+
+    <section id="package-collections" class="section">
+        <h2>Package Collections</h2>
+        <div class="card">
+            <div class="card-content">
+                <h3>Family Vacation</h3>
+                <p>Explore our family-friendly holiday packages suitable for all ages.</p>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-content">
+                <h3>Adventure Seeker</h3>
+                <p>For the adrenaline junkies, embark on thrilling adventures with our curated packages.</p>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-content">
+                <h3>City Escapes</h3>
+                <p>Experience the charm of different cities around the world with our city escape packages.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="section">
+        <h2>Contact</h2>
+        <div class="card contact-card">
+            <div class="card-content">
+                <form action="#" method="POST">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" placeholder="Enter your name">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" placeholder="Enter your email">
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" placeholder="Enter your message"></textarea>
+                    <button type="submit">Send</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="social-icons">
+            <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+            <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+            <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+            <a href="#" class="social-icon"><i class="fab fa-linkedin-in"></i></a>
+        </div>
+        <p>&copy; 2024 Gogaga Holidays. All rights reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+    <script type="text/javascript" src="js/script.js"></script>
+</body>
+
+</html>
